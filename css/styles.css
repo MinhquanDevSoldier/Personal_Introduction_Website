@@ -62,6 +62,7 @@ body{
     padding:5px 15px 5px 15px;
 }
 #header ul li a{
+    color:black;
     font-size:18px;
     font-weight:500;
     text-decoration: none;
