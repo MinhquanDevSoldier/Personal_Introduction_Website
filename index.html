@@ -9,12 +9,14 @@
     <title>Trang cá nhân</title>
 </head>
 <body>
-    <div id="header">
-        <a class="title" href="#">About Me</a>
+    <div id="header" onscroll="">
+        <div class="title">
+            <a href="#container">About Me</a>
+        </div>
         <ul class="">
-            <li>Home</li>
-            <li>Product</li>
-            <li>Blog</li>
+            <li><a href="#container">Home</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </div>
     <div id="container">
@@ -29,17 +31,199 @@
                 </td>
                 <td class="right">
                     <div class="img">
-                        <img id="PersonalImage" src="./src/TMQ_Avatar.jpg" alt="Ảnh đại diện"/>
+                        <img id="PersonalImage" src="./src/TMQ_Avatar.png" alt="Ảnh đại diện"/>
                     </div>
                 </td>
             </tr>
         </table>
-        
+        <div id="skill">
+            <p class="title">Kỹ năng chuyên môn</p>
+            
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="content">
+                                <img src="https://henrynguyen2003.files.wordpress.com/2018/09/c-sharp-logo.png?w=656" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>C# (C Sharp) là một ngôn ngữ lập trình hướng đối tượng đa năng, 
+                                        mạnh mẽ được phát triển bởi Microsoft, C# là phần khởi đầu cho kế hoạch .NET của họ.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="2">
+                            <div class="content">
+                                <img src=" https://nentang.vn/wp-content/uploads/2018/07/html-css-js-course-intro.jpeg" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>HTML, CSS, JavaScript là 3 công cụ mà bất cứ người bắt đầu học làm website
+                                            cũng phải biết qua tính tới hiện tại đã ra tới HTML5, CSS3 và JS được ứng dụng trong rất nhiều mảng như 
+                                            ứng dụng và game
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            <p><b>Sử dụng thành thạo các ngôn ngữ lập trình, và ngôn ngữ đánh dấu siêu văn bản</b></p>
+                            <ul class="content">
+                                <li>HTML5</li>
+                                <li>JavaScript</li>
+                                <li>C#</li>
+                                <li>Java</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>Các cơ sở dữ liệu thường dùng :</b></p>
+                            <ul class="content">
+                                <li>Microsoft SQL Server</li>
+                                <li>MySQL Server</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <div class="content">
+                                <img src="https://gocnhinso.com/wp-content/uploads/2020/12/sql-server.png" height="130" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>MS SQL Server là hệ thống quản trị cơ sở dữ liệu quan hệ (RDBMS) của Microsoft.
+                                            Nó được xây dựng cho các chức năng cơ bản như lưu trữ dữ liệu do nhu cầu sử các phần mềm theo mô hình khách - chủ.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="content">
+                                <img src="https://kiemtienblog.com/wp-content/uploads/2020/04/MySQL-Logo.wine_-780x470.png" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>Mysql là một hệ quản lý cơ sở dữ liệu mã nguồn mở rất phổ biến bởi độ tin cậy cao. 
+                                            Giải pháp này có thể chạy trên hơn 20 nền tảng gồm Windows, IBM AIX, Mac OS, Linux, HP-UX và cung cấp nhiều tính năng linh hoạt.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                         <td>
+                            <div class="content">
+                                <img src="https://cdn.atpweb.vn/blog/wp-content/uploads/2020/11/image00.png" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>Firebase là một nền tảng để phát triển ứng dụng di động và trang web, bao gồm các API đơn giản và mạnh mẽ mà không cần backend hay server.
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="content">
+                                <img src="http://www.appcoda.com/wp-content/uploads/2015/04/react-native.png" class="img"/>
+                                <div class="sub">
+                                    <div class="infoImg">
+                                        <p>React Native là một framework xây dựng bởi Facebook trên nền tảng ngôn ngữ JavaScript.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td colspan="3">
+                            <p>Hiện tại mình đang thực hiện đề tài <b>"Nghiên cứu khoa học"</b> tại đại học Thủ Dầu Một 
+                                với <b>React Native</b> một framework của firebase xây dựng dựa trên nền JavaScript (^.^).</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           
+        </div>
+        <div class="personalSkill">
+            <p class="title">Kỹ năng cá nhân</p>
+            
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+            <div>
+                <img src="./src/photoshopCS6.png" class="imgPhotoshop"/>
+                <img src="./src/MPX.jpg" class="imgMPX"/>
+            </div>
+            <p>Có thể đảm nhận các công việc về văn phòng cũng như thiết kế ảnh bằng phần mềm Adobe Photoshop</p>
+        </div>
+        <div id="personalPreference">
+            <p class="title">Sở thích</p>
+                                
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td
+                            style="display:flex;justify-content: flex-end;"
+                        >
+                            <img src="https://cuasotinhyeu.vn/sites/default/files/tu-van/2018/07/19/chupanhchoban.jpg" class="img"/>
+                        </td>
+                        <td>
+                            <p style="text-align: justify;">Mình là một chàng trai thích nghệ thuật, nên hiển nhiên là 
+                                mình rất thích chụp lại những khoảnh khắc đẹp trong cuộc sống. Nhưng chủ yếu là qua smartphone thôi chứ 
+                            chưa có điều kiện mua máy ảnh 😛</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="text-align: justify;">Ngoài chụp ảnh mình còn thích đọc sách đặc biệt là những cuốn sách nói về cuộc sống như hạt giống tâm hồn, Đắc nhân tâm,
+                            Tôi tài giỏi, bạn cũng thế!,...Đây là sở thích từ lúc bé vì bản thân mình lúc nhỏ rất nghèo nên có sách đọc là quý lắm.</p>
+                        </td>
+                        <td>
+                            <img src="https://topthuthuat.com/wp/wp-content/uploads/2020/02/doc-sach.jpg" class="img"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Contact">
+            <p class="title">Liên hệ</p>
+            
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://www.facebook.com/images/fb_icon_325x325.png" class="imgPhotoshop"/>
+                        </td>
+                        <td>
+                            <p><a href="https://www.facebook.com/minhquangalaxys" target="_blank"><b>https://www.facebook.com/minhquangalaxys</b></a> Đây là facebook cá nhân của mình</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://stc-zaloprofile.zdn.vn/pc/v1/images/zalo_sharelogo.png" class="imgPhotoshop"/>
+                        </td>
+                        <td>
+                            <p>Rất xin lỗi nhưng hiện tại mình đang gặp vấn đề với tài khoản Zalo 😭😭</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn.tgdd.vn/2020/03/GameApp/png-200x200.png" class="imgPhotoshop"/>
+                        </td>
+                        <td>
+                            <p><b>minhquangalaxys@gmail.com</b> Đây là email cá nhân của mình</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <div id="footer">
-        Trang giới thiệu cá nhân thì không cần footer đâu nhỉ ^.^
+        <p>Trang giới thiệu cá nhân thì không cần footer đâu nhỉ ^.^</p>
+        <p>Cảm ơn các bạn đã xem hết trang nhé</p>
+        <img onclick="footerClick()" id="onichan" src="https://i.pinimg.com/originals/51/29/e9/5129e9456edb55f18dcb9c24e821d050.png" width="200"/>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>
