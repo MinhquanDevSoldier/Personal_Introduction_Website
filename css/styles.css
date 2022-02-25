@@ -78,7 +78,7 @@ body{
 }
 #container .area_1{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 #container .area_1 .left .Intro p{
     line-height:1.8;
