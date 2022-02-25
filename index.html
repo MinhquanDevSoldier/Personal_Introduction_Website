@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css"/> 
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css"/> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
     <title>Trần Minh Quân</title>
 </head>
 <body>
-    <div id="header" onscroll="">
+    <div id="header">
         <div class="title">
             <a href="#container">About Me</a>
         </div>
@@ -20,22 +21,20 @@
         </ul>
     </div>
     <div id="container">
-        <table>
-            <tr>
-                <td class="left">
-                    <div class="Intro">
-                        <p class="title">Trần Minh Quân</p>
-                        <p>Mong muốn tìm công ty công nghệ nhằm ổn định kinh tế bản thân ^.^</p>
-                        <p>Có kinh nghiệm về React Native, HTML, CSS, JS, C# .Net</p>
-                    </div>
-                </td>
-                <td class="right">
-                    <div class="img">
-                        <img id="PersonalImage" src="./src/TMQ_Avatar.png" alt="Ảnh đại diện"/>
-                    </div>
-                </td>
-            </tr>
-        </table>
+        <div class="area_1">
+        <div class="right">
+            <div class="img">
+                <img id="PersonalImage" src="./src/TMQ_Avatar.png" alt="Ảnh đại diện"/>
+            </div>
+        </div>
+        <div class="left">
+            <div class="Intro">
+                <p class="title">Trần Minh Quân</p>
+                <p>Mong muốn tìm công ty công nghệ nhằm ổn định kinh tế bản thân ^.^</p>
+                <p>Có kinh nghiệm về React Native, HTML, CSS, JS, C# .Net</p>
+            </div>
+        </div>
+        </div>
         <div id="skill">
             <p class="title">Kỹ năng chuyên môn</p>
             

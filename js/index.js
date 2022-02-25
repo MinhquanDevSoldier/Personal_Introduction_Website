@@ -2,15 +2,42 @@ function footerClick() {
     if (confirm('Oni-chan Baka ~~~~') == true) {}
     location.href='https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fprecincttv.com%2Ffiles%2Fimage-exchange%2F2017%2F07%2Fie_60238.jpeg';
 }
+//Change size
 
+window.addEventListener('resize', function(){
+    if(window.innerWidth > 768)
+    {
+        document.querySelector('#header').style.padding = '30px 200px 30px 200px';
+    }
+    else
+    {
+        document.querySelector('#header').style.padding = '30px 0px 30px 0px';
+    }
+})
 //Sticky Navbar
 window.addEventListener('scroll', function() {
+    console.log(window.innerWidth);
     if(window.scrollY > 150) {
-        document.querySelector('#header').style.padding = '10px 200px 10px 200px';
+        if(window.innerWidth > 768)
+        {
+            document.querySelector('#header').style.padding = '10px 200px 10px 200px';
+        }
+        else
+        {
+            document.querySelector('#header').style.padding = '10px 0px 10px 0px';
+        }
         document.querySelector('#header').style.transition = 'all 0.4s';
         document.querySelector('#header').style.opacity = 0.9;
     } else {
-        document.querySelector('#header').style.padding = '30px 200px 30px 200px';
+        if(window.innerWidth > 768)
+        {
+            document.querySelector('#header').style.padding = '30px 200px 30px 200px';
+        }
+        else
+        {
+            document.querySelector('#header').style.padding = '30px 0px 30px 0px';
+        }
+        
     }
 });
 
